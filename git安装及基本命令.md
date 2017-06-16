@@ -65,17 +65,15 @@
      $ git config --global core.editor vim
      ```
 ### 查看提交信息
-    ```shell
     $ git log
-    ```  
 ## git的基本命令
   ### 删除文件恢复
      * 把仓库里的README这个文件给删除
-     ```shell
+
      $ rm README
      $ ls
      $ ls -al
-     ```
+
      * 文件已经被删除,查看一下现在仓库是什么状态
      ```shell
      $ git status
