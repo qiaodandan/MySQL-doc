@@ -99,4 +99,20 @@ Vim是一个类似于Vi的著名的功能强大、高度可定制的文本编辑
 * dd:剪切当前一行
 * p: 粘贴内容到游标之后
 * P: 粘贴内容到游标之前
+#### 基本的文件操作
+* 文件的创建:touch  file 
+* 删除:rm  file
+* 复制:cp file file1
+* 重命名:mv file   file2
+* 列出文件列表:ls -al 
+* 查看文件内容:cat  file
+#### 基本的目录操作
+* 目录的创建:mkdir dir
+* 删除:rmdir xxx 删除空目录xxx
+* 复制:cp dir   dir1  -a
+* 重命名:mv dir  dir2
+* 列出目录列表:ls -d  dir
+* 目录中查找文件:find  ./dir  -name  "filename"
+
+
 
