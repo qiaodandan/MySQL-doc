@@ -1,8 +1,6 @@
 ## 安装git
 使用下面的命令进行安装git工具.
-
-    $ sudo apt-get install git
-    
+    $ sudo apt-get install git 
 ### 创建版本库
 
 * 第一步, 先要创建一个目录, 这个目录就是用来存放仓库的.
