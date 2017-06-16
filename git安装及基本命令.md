@@ -6,17 +6,16 @@
 ### 创建版本库
 
 * 第一步, 先要创建一个目录, 这个目录就是用来存放仓库的.
-
-  $ mkdir github
-  
-  $ ls
-  
-  $ mkdir demo
-  
+```shell
+  $ mkdir github  
+  $ ls  
+  $ mkdir demo  
   $ cd demo/
-  
+```
 * 第二步, 使用git init命令, 将当前目录创建成git仓库.
-
+```shell
+  $ git init
+```
   $ git init
   $ ls -al(回车，会发现有一个隐藏的.git目录. 这个目录就是存放着git管理工具用到的所有信息和基本配置信息. 没事千万不要手动修改这个目录, 不然改乱了, git仓库就给破坏了.)
 ### 提交
