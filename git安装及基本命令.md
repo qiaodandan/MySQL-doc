@@ -64,6 +64,99 @@
     $ git log
      ```
 ## git的基本命令
+  ### 删除文件恢复
+     * 把仓库里的README这个文件给删除
+     ```shell
+     $ rm README
+     $ ls
+     $ ls -al
+     ```
+     * 文件已经被删除,查看一下现在仓库是什么状态
+     ```shell
+     $ git status
+     ```
+     * 恢复:前提是这个文件提交到了仓库
+     ```shell
+     $ git checkout README
+     ```
+     * 然后我们再用ls查看一下文件是否存在.
+     ```shell
+     $ ls -al
+     ```
+     * 再查看git仓库是状态
+     ```shell
+     $ git status
+     ```
+  ### 版本回退
+     * 如果想回退到上次提交的版本, 那么需要使用git reset命令.
+     ```shell
+     $ git reset --hard commitID
+     ```
+     * git reset命令恢复到前面提交版本.
+     ```shell
+     $ git reflog
+     ```
+  ### 从仓库中删除文件
+     * 将文件从仓库中删除这个文件.(这只是做了删除操作, 但没有真正的从仓库中删除)
+     ```shell
+     $ git rm filename
+     ```
+     *  我们做一次提交(从仓库删除).
+     ```shell
+     $ git commit
+     ```
+  ### 从版本库中忽略文件
+  ```shell
+     $ touch .gitignore
+  ```
+  ### 版本之间对比
+  ```shell
+  $ git diff
+  $ git diff commitID1 commitID2
+  ```
+  ### git生成patch(patch实际上是保存两个文件的差异.)
+  ```shell
+  $ git format-patch -p1
+  ```
+  ### git 打 patch
+  ```shell
+  $ git am patch-name
+  ```
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
   
