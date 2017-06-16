@@ -1,4 +1,8 @@
 ## 创建一个github仓库
-![linux](https://raw.githubusercontent.com/qiaodandan/MySQL-doc/master/linux.jpg)
-![linux](https://raw.githubusercontent.com/qiaodandan/MySQL-doc/master/sasa.jpg)
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![creat](https://raw.githubusercontent.com/qiaodandan/MySQL-doc/master/creat.jpg)
+## 使用github仓库
+我用的方法是clone直接去下载这个项目, 这是最常用下载或拉取github仓库的方法.
+```shell
+$ git clone https://github.com/qiaodandan/MySQL-doc.git
+```
+
