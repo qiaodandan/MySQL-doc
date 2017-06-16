@@ -72,24 +72,33 @@
      $ rm README
      $ ls
      $ ls -al
-     2. 文件已经被删除,查看一下现在仓库是什么状态
+     
+     2. 文件已经被删除,查看一下现在仓库是什么状态    
      $ git status
-     3. 恢复:前提是这个文件提交到了仓库
+     
+     3. 恢复:前提是这个文件提交到了仓库     
      $ git checkout README
+     
      4. 然后我们再用ls查看一下文件是否存在.
      $ ls -al
+     
      5. 再查看git仓库是状态
      $ git status
+     
   ### 版本回退
      1. 如果想回退到上次提交的版本, 那么需要使用git reset命令.
      $ git reset --hard commitID
+     
      2. git reset命令恢复到前面提交版本.
      $ git reflog
+     
   ### 从仓库中删除文件
      1. 将文件从仓库中删除这个文件.(这只是做了删除操作, 但没有真正的从仓库中删除)
      $ git rm filename
+     
      2.  我们做一次提交(从仓库删除).
      $ git commit
+     
   ### 从版本库中忽略文件
      $ touch .gitignore
   ### 版本之间对比
