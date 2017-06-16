@@ -26,6 +26,7 @@ ls -al 列出所有文件的完整信息，每行一个文件
 ls 列出所有文件
 
 * P
+
 pwd 显示当前目录
 
 ps 列出当前用户的进程
@@ -33,6 +34,7 @@ ps 列出当前用户的进程
 ps -ef 以完整信息列出所有进程
 
 * R
+
 rm -rf xxx 删除目录xxx及其子目录，即使目录不空
 
 rm -rf xxx/* 删除目录xxx下的所有内容，但不删除xxx本身
@@ -44,6 +46,7 @@ rmdir xxx 删除空目录xxx
 mkdir xxx 创建目录xxx
 
 * T
+
 tar -xvf xxx.tar 将xxx.tar解压，解压后将产生xxx文件夹，里面包含解压后的文件 x表示解压，v表示输出解压信息，f表示操作普通文件
 
 tar -cvf tmp.tar tmp 将文件夹tmp打包成tmp.tar
@@ -55,6 +58,7 @@ touch命令
 touch abc 如果文件abc存在，则更新其时间为当前时间，否则创建它
 
 * Z
+
 zip 压缩
 
 zip -r9 ~/zdd /home/zdd/* 将目录/home/zdd下的所有文件压缩并放入当前目录下名为zdd。-r表示递归处理文件夹中的文件,9表示最大压缩率。
@@ -69,8 +73,11 @@ gzip -d error_log.gz 将error_log.gz解压缩，-d表示解压缩，解压缩后
 
 
 * 其他
+
 在终端上翻页(Putty窗口也可以)
+
 向上翻页    Shift+PageUp
+
 向下翻页    Shift+PageDown
 
 ### 文本编辑器Vim的基本使用
