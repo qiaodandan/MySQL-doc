@@ -20,5 +20,6 @@ $ git branch -av
 $ git pull origin master
 $ git push origin master
 ```
+![index](https://raw.githubusercontent.com/qiaodandan/MySQL-doc/master/index.jpg)
 
 
