@@ -1,4 +1,4 @@
-##  安装atmo.io
+##  安装atmo
 1. 进入atom.io网站
 2. other platform
 3. atom-amd64.deb(复制链接地址)
@@ -16,7 +16,6 @@
  sudo tasksel
 ```
 ## Apache开启CGI
-
 需要在apache中开启cgi支持.
 ```shell
 sudo ln -s /etc/apache2/mods-available/cgi.load /etc/apache2/mods-enabled/cgi.load
@@ -33,7 +32,7 @@ sudo chmod 777 /usr/lib/cgi-bin/sx
 ## Makefile
 ```shell
 vim Makefile
-m```
+```
 ```
 install:
 	cp *.cgi /usr/lib/cgi-bin/sx
