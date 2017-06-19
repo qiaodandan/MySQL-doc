@@ -1,4 +1,15 @@
-  ## Apache安装
+##  安装atmo.io
+1. 进入atom.io网站
+2. other platform
+3. atom-amd64.deb(复制链接地址)
+4. wget -c 粘贴链接地址
+5. sudo dpkg -i atom-amd64.deb
+6. 进入atom->edit->preferences->勾选soft wrap和foft wrap At lihe
+7. 进入atom->install->安装Atom editor开环境使用的插件
+8. 用atom .来编辑文件
+## 下载资料cgi-stu
+下载->解压->把stu复制到github下
+## Apache安装
 ```shell
  sudo apt-get update
  sudo apt-get install tasksel
@@ -22,7 +33,7 @@ sudo chmod 777 /usr/lib/cgi-bin/sx
 ## Makefile
 ```shell
 vim Makefile
-```
+m```
 ```
 install:
 	cp *.cgi /usr/lib/cgi-bin/sx
@@ -51,8 +62,23 @@ sudo apt-get install libmysqlclient-dev
 * atom-clock: 在bar显示 时间
 * autocomplete-js-import: 模块导入智能提示
 * autocomplete-modules: 模块智能提示【node_modules】
-
-
+## MVC
+M是指业务模型，V是指用户界面，C则是控制器
+* Model（模型）表示应用程序核心（比如数据库记录列表）。
+* View（视图）显示数据（数据库记录）。
+* Controller（控制器）处理输入（写入数据库记录）。
+在stu目录下
+```shell
+cp -r public/ index.html /var/www/html/
+```
+改完程序
+```shell
+make clean
+make 
+git status
+make install
+git status
+```
 
 
 
