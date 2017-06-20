@@ -1,6 +1,6 @@
 ## Linux 操作系统组成
 一个典型的Linux操作系统组成为：Linux内核，一些GNU程序库和工具，命令行shell，图形界面的X Window系统和相应的桌面环境，如KDE或GNOME，并包含数千种从办公套件，编译器，文本编辑器到科学工具的应用软件。
-
+![linux安装](https://raw.githubusercontent.com/qiaodandan/MySQL-doc/master/linux安装.jpg)
 ### shell 解释器的介绍
 Shell俗称壳（用来区别于核），是指“提供使用者使用界面”的软件（命令解析器）。它类似于DOS下的command和后来的cmd.exe。它接收用户命令，然后调用相应的应用程序，并根据用户输入的指令来反馈给用户指定的信息。
 
