@@ -31,6 +31,10 @@ $ sudo apt-get install tasksel
 $ sudo tasksel
 ```
 选择LAMP sever 空格选中，选中状态有*号->Tab键->【OK】回车
+### workbench 安装
+```shell
+$ sudo apt-get install mysql-workbench
+```
 ## MySQL 命令行操作
 ### 连接到本机上的MYSQL。
 键入命令mysql -u root -p，回车后提示你输密码.注意用户名前可以有空格也可以没有空格，
