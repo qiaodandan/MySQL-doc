@@ -1,6 +1,6 @@
 # github开发流程
 ## 创建一个github仓库
-![creat](https://raw.githubusercontent.com/qiaodandan/MySQL-doc/master/creat.jpg)
+![creat](https://raw.githubusercontent.com/qiaodandan/MySQL-doc/master/images/creat.jpg)
 ## 本地开发的配置
 我用的方法是clone直接去下载这个项目, 这是最常用下载或拉取github仓库的方法.
 ```shell
@@ -20,6 +20,6 @@ $ git branch -av
 $ git pull origin master
 $ git push origin master
 ```
-![index](https://raw.githubusercontent.com/qiaodandan/MySQL-doc/master/index.jpg)
+![index](https://raw.githubusercontent.com/qiaodandan/MySQL-doc/master/images/index.jpg)
 
 
