@@ -1,10 +1,3 @@
-## 技术文档
-* [Linux安装及基本命令](Linux安装及基本命令.md)
-* [git安装及基本命令](git安装及基本命令.md)
-* [github基本命令](github基本命令.md)
-* [MySQL安装](MySQL安装.md)
-* [MySQL基本操作](MySQL基本操作.md)
-* [Apache,CGI及MySQL的C接口](Apache,CGI及MySQL的C接口.md)
 ## 课程设计
 * 学生信息管理系统
 ## 每天计划
