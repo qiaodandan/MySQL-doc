@@ -74,9 +74,7 @@ cp -r public/ index.html /var/www/html/
 ```shell
 make clean
 make 
-git status
 make install
-git status
 ```
 
 
